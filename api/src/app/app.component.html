@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<hr>
+<table border="1px solid black">
+  <tr *ngFor="let user of users">
+    <td>
+      {{user.id}}
+    </td>
+    <td>
+      {{user.email}}
+    </td>    
+</table>
+<app-footer></app-footer>
